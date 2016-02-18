@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819714AE1C759D4C0045BDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714AD1C759D4C0045BDC7 /* AppDelegate.swift */; };
+		819714B01C759D4C0045BDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714AF1C759D4C0045BDC7 /* ViewController.swift */; };
+		819714B31C759D4C0045BDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819714B11C759D4C0045BDC7 /* Main.storyboard */; };
+		819714B61C759D4D0045BDC7 /* esmerization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */; };
+		819714B81C759D4D0045BDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819714B71C759D4D0045BDC7 /* Assets.xcassets */; };
+		819714BB1C759D4D0045BDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		819714AA1C759D4C0045BDC7 /* esmerization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esmerization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819714AD1C759D4C0045BDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819714AF1C759D4C0045BDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819714B21C759D4C0045BDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		819714B51C759D4D0045BDC7 /* esmerization.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = esmerization.xcdatamodel; sourceTree = "<group>"; };
+		819714B71C759D4D0045BDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819714BA1C759D4D0045BDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819714BC1C759D4D0045BDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819714A71C759D4C0045BDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819714A11C759D4C0045BDC7 = {
+			isa = PBXGroup;
+			children = (
+				819714AC1C759D4C0045BDC7 /* esmerization */,
+				819714AB1C759D4C0045BDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819714AB1C759D4C0045BDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819714AA1C759D4C0045BDC7 /* esmerization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819714AC1C759D4C0045BDC7 /* esmerization */ = {
+			isa = PBXGroup;
+			children = (
+				819714AD1C759D4C0045BDC7 /* AppDelegate.swift */,
+				819714AF1C759D4C0045BDC7 /* ViewController.swift */,
+				819714B11C759D4C0045BDC7 /* Main.storyboard */,
+				819714B71C759D4D0045BDC7 /* Assets.xcassets */,
+				819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */,
+				819714BC1C759D4D0045BDC7 /* Info.plist */,
+				819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */,
+			);
+			path = esmerization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819714A91C759D4C0045BDC7 /* esmerization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819714BF1C759D4D0045BDC7 /* Build configuration list for PBXNativeTarget "esmerization" */;
+			buildPhases = (
+				819714A61C759D4C0045BDC7 /* Sources */,
+				819714A71C759D4C0045BDC7 /* Frameworks */,
+				819714A81C759D4C0045BDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esmerization;
+			productName = esmerization;
+			productReference = 819714AA1C759D4C0045BDC7 /* esmerization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819714A21C759D4C0045BDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wujianguo;
+				TargetAttributes = {
+					819714A91C759D4C0045BDC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 819714A51C759D4C0045BDC7 /* Build configuration list for PBXProject "esmerization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819714A11C759D4C0045BDC7;
+			productRefGroup = 819714AB1C759D4C0045BDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819714A91C759D4C0045BDC7 /* esmerization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819714A81C759D4C0045BDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819714BB1C759D4D0045BDC7 /* LaunchScreen.storyboard in Resources */,
+				819714B81C759D4D0045BDC7 /* Assets.xcassets in Resources */,
+				819714B31C759D4C0045BDC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819714A61C759D4C0045BDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819714B01C759D4C0045BDC7 /* ViewController.swift in Sources */,
+				819714B61C759D4D0045BDC7 /* esmerization.xcdatamodeld in Sources */,
+				819714AE1C759D4C0045BDC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		819714B11C759D4C0045BDC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819714B21C759D4C0045BDC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819714BA1C759D4D0045BDC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819714BD1C759D4D0045BDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819714BE1C759D4D0045BDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819714C01C759D4D0045BDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = esmerization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.esmerization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		819714C11C759D4D0045BDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = esmerization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.esmerization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819714A51C759D4C0045BDC7 /* Build configuration list for PBXProject "esmerization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819714BD1C759D4D0045BDC7 /* Debug */,
+				819714BE1C759D4D0045BDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819714BF1C759D4D0045BDC7 /* Build configuration list for PBXNativeTarget "esmerization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819714C01C759D4D0045BDC7 /* Debug */,
+				819714C11C759D4D0045BDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				819714B51C759D4D0045BDC7 /* esmerization.xcdatamodel */,
+			);
+			currentVersion = 819714B51C759D4D0045BDC7 /* esmerization.xcdatamodel */;
+			path = esmerization.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 819714A21C759D4C0045BDC7 /* Project object */;
+}
