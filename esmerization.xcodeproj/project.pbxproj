@@ -16,6 +16,23 @@
 		819714F41C75C4620045BDC7 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F11C75C4620045BDC7 /* Room.swift */; };
 		819714F51C75C4620045BDC7 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F21C75C4620045BDC7 /* RoomListViewController.swift */; };
 		819714F61C75C4620045BDC7 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F31C75C4620045BDC7 /* RoomViewController.swift */; };
+		819714FA1C75D6A90045BDC7 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819714F91C75D6A90045BDC7 /* MobileVLCKit.framework */; };
+		819715001C75D7360045BDC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819714FF1C75D7360045BDC7 /* QuartzCore.framework */; };
+		819715021C75D7590045BDC7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715011C75D7590045BDC7 /* OpenGLES.framework */; };
+		819715041C75D75E0045BDC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715031C75D75E0045BDC7 /* CoreText.framework */; };
+		819715061C75D7680045BDC7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715051C75D7680045BDC7 /* AVFoundation.framework */; };
+		819715081C75D76D0045BDC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715071C75D76D0045BDC7 /* Security.framework */; };
+		8197150A1C75D77E0045BDC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715091C75D77E0045BDC7 /* AudioToolbox.framework */; };
+		8197150C1C75D78B0045BDC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197150B1C75D78B0045BDC7 /* CFNetwork.framework */; };
+		8197150E1C75D7930045BDC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197150D1C75D7930045BDC7 /* CoreGraphics.framework */; };
+		819715101C75D7A10045BDC7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197150F1C75D7A10045BDC7 /* libz.tbd */; };
+		819715121C75D7A50045BDC7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715111C75D7A50045BDC7 /* libxml2.tbd */; };
+		819715141C75D7AB0045BDC7 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715131C75D7AB0045BDC7 /* libiconv.tbd */; };
+		819715161C75D7B20045BDC7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715151C75D7B20045BDC7 /* libstdc++.tbd */; };
+		819715181C75D7BD0045BDC7 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715171C75D7BD0045BDC7 /* libbz2.tbd */; };
+		8197151A1C75D81F0045BDC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715191C75D81F0045BDC7 /* VideoToolbox.framework */; };
+		8197151C1C75D9210045BDC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197151B1C75D9210045BDC7 /* CoreVideo.framework */; };
+		8197151E1C75D92E0045BDC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197151D1C75D92E0045BDC7 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +46,24 @@
 		819714F11C75C4620045BDC7 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		819714F21C75C4620045BDC7 /* RoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
 		819714F31C75C4620045BDC7 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		819714F91C75D6A90045BDC7 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
+		819714FB1C75D6EE0045BDC7 /* esmerization-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "esmerization-Bridging-Header.h"; sourceTree = "<group>"; };
+		819714FF1C75D7360045BDC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		819715011C75D7590045BDC7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		819715031C75D75E0045BDC7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		819715051C75D7680045BDC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		819715071C75D76D0045BDC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		819715091C75D77E0045BDC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8197150B1C75D78B0045BDC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8197150D1C75D7930045BDC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8197150F1C75D7A10045BDC7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		819715111C75D7A50045BDC7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		819715131C75D7AB0045BDC7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		819715151C75D7B20045BDC7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		819715171C75D7BD0045BDC7 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		819715191C75D81F0045BDC7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8197151B1C75D9210045BDC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8197151D1C75D92E0045BDC7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		C2EECC47FBEE84F5FE9EBFE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF358D67711437CE5B0DBC0B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CEF29311670C5418D38ED4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,7 +74,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8197151E1C75D92E0045BDC7 /* CoreMedia.framework in Frameworks */,
+				8197151C1C75D9210045BDC7 /* CoreVideo.framework in Frameworks */,
+				8197151A1C75D81F0045BDC7 /* VideoToolbox.framework in Frameworks */,
+				819715181C75D7BD0045BDC7 /* libbz2.tbd in Frameworks */,
+				819715161C75D7B20045BDC7 /* libstdc++.tbd in Frameworks */,
+				819715141C75D7AB0045BDC7 /* libiconv.tbd in Frameworks */,
+				819715121C75D7A50045BDC7 /* libxml2.tbd in Frameworks */,
+				819715101C75D7A10045BDC7 /* libz.tbd in Frameworks */,
+				8197150E1C75D7930045BDC7 /* CoreGraphics.framework in Frameworks */,
+				8197150C1C75D78B0045BDC7 /* CFNetwork.framework in Frameworks */,
+				8197150A1C75D77E0045BDC7 /* AudioToolbox.framework in Frameworks */,
+				819715081C75D76D0045BDC7 /* Security.framework in Frameworks */,
+				819715061C75D7680045BDC7 /* AVFoundation.framework in Frameworks */,
+				819715041C75D75E0045BDC7 /* CoreText.framework in Frameworks */,
+				819715021C75D7590045BDC7 /* OpenGLES.framework in Frameworks */,
+				819715001C75D7360045BDC7 /* QuartzCore.framework in Frameworks */,
 				0BA84BF3500A409064BE2820 /* Pods.framework in Frameworks */,
+				819714FA1C75D6A90045BDC7 /* MobileVLCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +153,7 @@
 				819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */,
 				819714BC1C759D4D0045BDC7 /* Info.plist */,
 				819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */,
+				819714FB1C75D6EE0045BDC7 /* esmerization-Bridging-Header.h */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -108,6 +161,23 @@
 		94EE965D52D86D97CE969EDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8197151D1C75D92E0045BDC7 /* CoreMedia.framework */,
+				8197151B1C75D9210045BDC7 /* CoreVideo.framework */,
+				819715191C75D81F0045BDC7 /* VideoToolbox.framework */,
+				819715171C75D7BD0045BDC7 /* libbz2.tbd */,
+				819715151C75D7B20045BDC7 /* libstdc++.tbd */,
+				819715131C75D7AB0045BDC7 /* libiconv.tbd */,
+				819715111C75D7A50045BDC7 /* libxml2.tbd */,
+				8197150F1C75D7A10045BDC7 /* libz.tbd */,
+				8197150D1C75D7930045BDC7 /* CoreGraphics.framework */,
+				8197150B1C75D78B0045BDC7 /* CFNetwork.framework */,
+				819715091C75D77E0045BDC7 /* AudioToolbox.framework */,
+				819715071C75D76D0045BDC7 /* Security.framework */,
+				819715051C75D7680045BDC7 /* AVFoundation.framework */,
+				819715031C75D75E0045BDC7 /* CoreText.framework */,
+				819715011C75D7590045BDC7 /* OpenGLES.framework */,
+				819714FF1C75D7360045BDC7 /* QuartzCore.framework */,
+				819714F91C75D6A90045BDC7 /* MobileVLCKit.framework */,
 				CF358D67711437CE5B0DBC0B /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -353,10 +423,18 @@
 			baseConfigurationReference = C2EECC47FBEE84F5FE9EBFE4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = esmerization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.esmerization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "esmerization/esmerization-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -365,10 +443,17 @@
 			baseConfigurationReference = F1CEF29311670C5418D38ED4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = esmerization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.esmerization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "esmerization/esmerization-Bridging-Header.h";
 			};
 			name = Release;
 		};
