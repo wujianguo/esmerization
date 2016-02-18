@@ -129,7 +129,11 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvd-on-dHC">
-                                <rect key="frame" x="20" y="20" width="22" height="22"/>
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="CRA-Rq-SOD"/>
+                                    <constraint firstAttribute="height" constant="40" id="G10-JO-vky"/>
+                                </constraints>
                                 <state key="normal" image="close"/>
                                 <connections>
                                     <action selector="closeButtonClick:" destination="VAn-YR-Mc2" eventType="touchUpInside" id="GLM-iT-l5q"/>
@@ -138,12 +142,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Tvd-on-dHC" firstAttribute="leading" secondItem="0gN-cP-vvu" secondAttribute="leadingMargin" id="1f8-Kp-tu7"/>
                             <constraint firstItem="iTR-vm-pqE" firstAttribute="top" secondItem="0gN-cP-vvu" secondAttribute="top" id="MCi-6E-ELe"/>
                             <constraint firstItem="iTR-vm-pqE" firstAttribute="bottom" secondItem="XCg-LK-e0w" secondAttribute="top" id="UkY-MR-CbQ"/>
+                            <constraint firstItem="Tvd-on-dHC" firstAttribute="leading" secondItem="0gN-cP-vvu" secondAttribute="leadingMargin" id="bAB-Ih-aLx"/>
                             <constraint firstAttribute="trailing" secondItem="iTR-vm-pqE" secondAttribute="trailing" id="d4U-iB-bv2"/>
+                            <constraint firstItem="Tvd-on-dHC" firstAttribute="top" secondItem="ahP-Z1-wqk" secondAttribute="bottom" id="lnr-NP-y2S"/>
                             <constraint firstItem="iTR-vm-pqE" firstAttribute="leading" secondItem="0gN-cP-vvu" secondAttribute="leading" id="sle-Kd-Oor"/>
-                            <constraint firstItem="Tvd-on-dHC" firstAttribute="top" secondItem="ahP-Z1-wqk" secondAttribute="bottom" id="tlG-BO-8lj"/>
                         </constraints>
                     </view>
                     <connections>

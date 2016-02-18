@@ -8,6 +8,17 @@
 
 import UIKit
 
+class RoomViewController: UIViewController {
+    var room: Room!
+    @IBOutlet weak var playerView: UIView!
+    
+    @IBAction func closeButtonClick(sender: UIButton) {
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
+}
+
+/*
 class RoomViewController: UIViewController, VLCMediaPlayerDelegate {
 
     override func viewDidLoad() {
@@ -65,3 +76,4 @@ class RoomViewController: UIViewController, VLCMediaPlayerDelegate {
     */
 
 }
+*/

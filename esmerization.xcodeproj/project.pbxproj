@@ -9,22 +9,26 @@
 /* Begin PBXBuildFile section */
 		0BA84BF3500A409064BE2820 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF358D67711437CE5B0DBC0B /* Pods.framework */; };
 		819714AE1C759D4C0045BDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714AD1C759D4C0045BDC7 /* AppDelegate.swift */; };
-		819714B01C759D4C0045BDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714AF1C759D4C0045BDC7 /* ViewController.swift */; };
 		819714B31C759D4C0045BDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819714B11C759D4C0045BDC7 /* Main.storyboard */; };
 		819714B61C759D4D0045BDC7 /* esmerization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */; };
 		819714B81C759D4D0045BDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819714B71C759D4D0045BDC7 /* Assets.xcassets */; };
 		819714BB1C759D4D0045BDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */; };
+		819714F41C75C4620045BDC7 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F11C75C4620045BDC7 /* Room.swift */; };
+		819714F51C75C4620045BDC7 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F21C75C4620045BDC7 /* RoomListViewController.swift */; };
+		819714F61C75C4620045BDC7 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819714F31C75C4620045BDC7 /* RoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		819714AA1C759D4C0045BDC7 /* esmerization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esmerization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819714AD1C759D4C0045BDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		819714AF1C759D4C0045BDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		819714B21C759D4C0045BDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		819714B51C759D4D0045BDC7 /* esmerization.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = esmerization.xcdatamodel; sourceTree = "<group>"; };
 		819714B71C759D4D0045BDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819714BA1C759D4D0045BDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819714BC1C759D4D0045BDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819714F11C75C4620045BDC7 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		819714F21C75C4620045BDC7 /* RoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
+		819714F31C75C4620045BDC7 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		C2EECC47FBEE84F5FE9EBFE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF358D67711437CE5B0DBC0B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CEF29311670C5418D38ED4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,15 +76,33 @@
 		819714AC1C759D4C0045BDC7 /* esmerization */ = {
 			isa = PBXGroup;
 			children = (
+				819714F01C75C4200045BDC7 /* Resources */,
+				819714EF1C75C4190045BDC7 /* Classes */,
+			);
+			path = esmerization;
+			sourceTree = "<group>";
+		};
+		819714EF1C75C4190045BDC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				819714F11C75C4620045BDC7 /* Room.swift */,
+				819714F21C75C4620045BDC7 /* RoomListViewController.swift */,
+				819714F31C75C4620045BDC7 /* RoomViewController.swift */,
 				819714AD1C759D4C0045BDC7 /* AppDelegate.swift */,
-				819714AF1C759D4C0045BDC7 /* ViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		819714F01C75C4200045BDC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				819714B11C759D4C0045BDC7 /* Main.storyboard */,
 				819714B71C759D4D0045BDC7 /* Assets.xcassets */,
 				819714B91C759D4D0045BDC7 /* LaunchScreen.storyboard */,
 				819714BC1C759D4D0045BDC7 /* Info.plist */,
 				819714B41C759D4D0045BDC7 /* esmerization.xcdatamodeld */,
 			);
-			path = esmerization;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		94EE965D52D86D97CE969EDF /* Frameworks */ = {
@@ -213,9 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819714B01C759D4C0045BDC7 /* ViewController.swift in Sources */,
 				819714B61C759D4D0045BDC7 /* esmerization.xcdatamodeld in Sources */,
 				819714AE1C759D4C0045BDC7 /* AppDelegate.swift in Sources */,
+				819714F41C75C4620045BDC7 /* Room.swift in Sources */,
+				819714F61C75C4620045BDC7 /* RoomViewController.swift in Sources */,
+				819714F51C75C4620045BDC7 /* RoomListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
