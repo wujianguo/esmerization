@@ -7,15 +7,61 @@
 //
 
 import UIKit
+import SnapKit
+import Kingfisher
 
 
 class RoomViewController: UIViewController, VLCMediaPlayerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let blurEffect = UIBlurEffect(style: .Light)
+        blurView = UIVisualEffectView(effect: blurEffect)
+        playerView.addSubview(blurView!)
+        blurView?.snp_makeConstraints { make in
+            make.edges.equalTo(playerView)
+        }
+        indicatorView = UIActivityIndicatorView()
+        blurView?.contentView.addSubview(indicatorView!)
+        indicatorView?.snp_makeConstraints {make in
+            make.center.equalTo(blurView!.contentView)
+        }
+        indicatorView?.startAnimating()
+        
         if let url = room.streamAddr {
             startPlay(url)
+        }
+    }
+    
+    var blurView: UIVisualEffectView?
+    var indicatorView: UIActivityIndicatorView?
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        let cache = KingfisherManager.sharedManager.cache
+        if let image = cache.retrieveImageInMemoryCacheForKey(room.anchor!.portrait!) {
+            let size = playerView.bounds.size
+            let horizontalRatio = size.width / image.size.width
+            let verticalRatio = size.height / image.size.height
+            var bounds = CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height)
+            var edge = UIEdgeInsetsZero
+            if horizontalRatio < verticalRatio {
+                let width = size.width / size.height * image.size.height
+                edge.left = (image.size.width - width) / 2
+                edge.right = edge.left
+                bounds.size.width = width
+                bounds.origin.x = edge.left
+            } else if horizontalRatio > verticalRatio {
+                let height = size.height / size.width * image.size.width
+                edge.top = (image.size.height - height) / 2
+                edge.bottom = edge.top
+                bounds.size.height = height
+                bounds.origin.y = edge.top
+            }
+            let im1 = image.crop(bounds)!
+            let im = im1.resize(size, contentMode: .ScaleToFill)
+            playerView.backgroundColor = UIColor(patternImage: im!)
         }
     }
 
@@ -56,7 +102,10 @@ class RoomViewController: UIViewController, VLCMediaPlayerDelegate {
     }
     
     func mediaPlayerTimeChanged(aNotification: NSNotification!) {
-
+        if let blur = blurView {
+            blur.removeFromSuperview()
+            blurView = nil
+        }
     }
     
     /*
@@ -70,3 +119,5 @@ class RoomViewController: UIViewController, VLCMediaPlayerDelegate {
     */
 
 }
+
+

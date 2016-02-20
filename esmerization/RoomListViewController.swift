@@ -10,12 +10,36 @@ import UIKit
 import SnapKit
 import Kingfisher
 
+extension UIColor {
+    
+    class func themeColor() -> UIColor { return UIColor.whiteColor().colorWithAlphaComponent(0.5) }
+    
+    /**
+     * Initializes and returns a color object for the given RGB hex integer.
+     */
+    public convenience init(rgb: Int) {
+        self.init(
+            red:   CGFloat((rgb & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgb & 0x00FF00) >> 8)  / 255.0,
+            blue:  CGFloat((rgb & 0x0000FF) >> 0)  / 255.0,
+            alpha: 1)
+    }
+    
+    public convenience init(colorString: String) {
+        var colorInt: UInt32 = 0
+        NSScanner(string: colorString).scanHexInt(&colorInt)
+        self.init(rgb: (Int) (colorInt ?? 0xaaaaaa))
+    }
+}
+
 class RoomCollectionCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
         smallImage.layer.cornerRadius = smallImage.frame.width / 2
         smallImage.layer.masksToBounds = true
+        smallImage.layer.borderWidth = 2
+        smallImage.layer.borderColor = UIColor.redColor().CGColor
     }
     
     
@@ -54,19 +78,24 @@ class RoomListViewController: UIViewController, UICollectionViewDataSource, UICo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "湾视"
         collectionView.delegate = self
         collectionView.dataSource = self
+        refreshControl.addTarget(self, action: "refresh", forControlEvents: .ValueChanged)
+        collectionView.addSubview(refreshControl)
         
         collectionView?.backgroundColor = UIColor.clearColor()
-        requestMore()
+        refresh()
     }
+    
+    var refreshControl = UIRefreshControl()
     
     var rooms = [Room]()
     
-    func requestMore() {
+    func refresh() {
         requestRoomList { (rms) -> Void in
-            self.rooms.appendContentsOf(rms)
+            self.refreshControl.endRefreshing()
+            self.rooms = rms
+//            self.rooms.appendContentsOf(rms)
             self.collectionView.reloadData()
         }
     }

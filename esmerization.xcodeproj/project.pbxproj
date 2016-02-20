@@ -33,6 +33,7 @@
 		8197151A1C75D81F0045BDC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819715191C75D81F0045BDC7 /* VideoToolbox.framework */; };
 		8197151C1C75D9210045BDC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197151B1C75D9210045BDC7 /* CoreVideo.framework */; };
 		8197151E1C75D92E0045BDC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197151D1C75D92E0045BDC7 /* CoreMedia.framework */; };
+		819715201C76AE650045BDC7 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197151F1C76AE650045BDC7 /* ImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		819715191C75D81F0045BDC7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		8197151B1C75D9210045BDC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		8197151D1C75D92E0045BDC7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8197151F1C76AE650045BDC7 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		C2EECC47FBEE84F5FE9EBFE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF358D67711437CE5B0DBC0B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CEF29311670C5418D38ED4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				819714F21C75C4620045BDC7 /* RoomListViewController.swift */,
 				819714F31C75C4620045BDC7 /* RoomViewController.swift */,
 				819714AD1C759D4C0045BDC7 /* AppDelegate.swift */,
+				8197151F1C76AE650045BDC7 /* ImageHelper.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				819714F41C75C4620045BDC7 /* Room.swift in Sources */,
 				819714F61C75C4620045BDC7 /* RoomViewController.swift in Sources */,
 				819714F51C75C4620045BDC7 /* RoomListViewController.swift in Sources */,
+				819715201C76AE650045BDC7 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
